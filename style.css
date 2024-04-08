@@ -1,0 +1,32 @@
+/* Styles the unordered list (navigation bar) */
+ul {
+    list-style: none; /* Removes default bullet points */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+  }
+  
+  /* Styles the list items (navigation links) */
+  li {
+    display: inline-block; /* Makes list items display horizontally */
+    margin-right: 10px; /* Adds space between links */
+  }
+  
+  /* Styles the anchor tags (navigation links) */
+  a {
+    color: #000; /* Sets text color to black */
+    text-decoration: none; /* Removes underline from links */
+    padding: 10px 15px; /* Adds padding to links */
+  }
+  
+  /* Styles links when hovered over */
+  a:hover {
+    background-color: #ddd; /* Adds a light gray background on hover */
+  }
+  
+  h1 {
+    color: #007bff; /* Blue color */
+    font-size: 2.5em;  /* Larger font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Centered text */
+    margin: 20px 0;  /* Margin top and bottom */
+  }
